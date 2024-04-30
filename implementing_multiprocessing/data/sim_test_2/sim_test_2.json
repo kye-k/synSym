@@ -1,0 +1,16 @@
+{
+"simulation_type": "slowed",
+"trimesh_axon": "bloss18_dataset_1_series_synapse_repaired.stl",
+"trimesh_synapse": "bloss18_dataset_1_series_synapse_sv_repaired_hull.stl",
+"num_p_synapse": 10,
+"num_p_axon": 0,
+"D_synapse": 0.1,
+"D_axon": 2.96,
+"tau_sim": 0.0001,
+"steps": 1000,
+"leave_prob": null,
+"pON": null,
+"pOFF": null,
+"seed": 3,
+"savefile": "data\\sim_test_2"
+}
