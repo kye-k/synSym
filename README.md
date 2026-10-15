@@ -33,7 +33,7 @@ There are three types of models that can be simulated using synSym: transient im
 
 `trimesh_axon`: path to .STL file (the larger geometry; units in $\mu m$)
 
-`trimesh_synapse`: path to .STL file (the smaller geometry within)
+`trimesh_synapse`: path to .STL file (the smaller geometry within; units in $\mu m$)
 
 `num_p_total`: total particles initialized; can be specified as `null` in this case specify an integer in, `num_p_synapse` and `num_p_axon`
 
@@ -41,7 +41,17 @@ There are three types of models that can be simulated using synSym: transient im
 
 `num_p_axon`: if  `num_p_total` is not `null`, set as `null`; otherwise, specifies the number of particles initialized within the axon
 
-`D_synapse
+`D_synapse`: diffusion coefficient of particles in the synapse ($\mu m^2/s$)
+
+`D_axon`: diffusion coefficient of particles in the axon ($\mu m^2/s$)
+
+`tau_sim`: the simulation time step
+
+`steps`: number of steps to run the simulation for
+
+`leave_prob`: `null`, but if model `cb` is specified, specifies the probability of particle being able to escape from the synapse (0, no escape; 1, free escape)
+
+`pON
 
 ## Outputs
 
