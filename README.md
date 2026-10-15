@@ -31,7 +31,7 @@ There are three types of models that can be simulated using synSym: transient im
 
 `simulation_type`: specifies the model
 
-`trimesh_axon`: path to .STL file (the larger geometry; units in $\mum$)
+`trimesh_axon`: path to .STL file (the larger geometry; units in $\mu m$)
 
 `trimesh_synapse`: path to .STL file (the smaller geometry within)
 
