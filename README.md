@@ -6,8 +6,8 @@ Particles are initialized within the axonal / synaptic volume, and diffusion is 
 
 ## Inputs
 .JSON file:
-
->{
+...
+{
 "simulation_type": "icbs",
 "trimesh_axon": "trimesh_axon_repaired.stl",
 "trimesh_synapse": "trimesh_synapse_repaired.stl",
@@ -24,6 +24,7 @@ Particles are initialized within the axonal / synaptic volume, and diffusion is 
 "seed": null,
 "savefile": "simulation_icbs//6_sp"
 }
+...
 
 ## Outputs
 
