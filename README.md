@@ -1,7 +1,7 @@
 ## Synaptic Diffusion Simulation
 
 ## Overview
-synSym is a tool used to simulate diffusion within a system defined by two three-dimensional geometry (.STL) files. In our use, we used this tool to simulate diffusion within a axonal geometry containing a smaller synaptic geometry (generated from ssTEM images, or CLSM images).
+synSym is a tool used to simulate diffusion within a system defined by two three-dimensional geometry (.STL) files. We originally created this tool to simulate diffusion within a axonal geometry containing a smaller synaptic geometry (generated from ssTEM images, or CLSM images).
 Particles are initialized within the geometries, and diffusion is simulated by independent random walks of each particle.
 
 ## Inputs
@@ -41,7 +41,7 @@ There are three types of models that can be simulated using synSym: transient im
 
 `num_p_axon`: if  `num_p_total` is not `null`, set as `null`; otherwise, specifies the number of particles initialized within the axon
 
-`
+`D_synapse
 
 ## Outputs
 
