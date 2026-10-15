@@ -28,12 +28,19 @@ Particles are initialized within the geometries, and diffusion is simulated by i
 ```
 
 There are three types of models that can be simulated using synSym: transient immobilizations (`icbs`), slowed diffusion (`mc`) and confining boundary (`cb`).
+
 `simulation_type`: specifies the model
+
 `trimesh_axon`: path to .STL file (the larger geometry; units in $mum$)
+
 `trimesh_synapse`: path to .STL file (the smaller geometry within)
+
 `num_p_total`: total particles initialized; can be specified as `null` in this case specify an integer in, `num_p_synapse` and `num_p_axon`
+
 `num_p_synapse`: if  `num_p_total` is not `null`, set as `null`; otherwise, specifies the number of particles initialized within the synapse
+
 `num_p_axon`: if  `num_p_total` is not `null`, set as `null`; otherwise, specifies the number of particles initialized within the axon
+
 `
 
 ## Outputs
