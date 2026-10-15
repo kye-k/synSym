@@ -1,1 +1,1 @@
-# threedsim
+# Monte Carlo random walk simulations
