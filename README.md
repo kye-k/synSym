@@ -6,6 +6,8 @@
 synSym is a tool used to simulate diffusion within a system defined by two three-dimensional geometry (.STL) files. We originally created this tool to simulate diffusion within a axonal geometry containing a smaller synaptic geometry (generated from ssTEM images, or CLSM images).
 Particles are initialized within the geometries, and diffusion is simulated by independent random walks of each particle.
 
+Simulations are run with the wrapper; and can be visualized using the visualizer.
+
 ## Inputs
 .JSON file:
 
