@@ -51,7 +51,17 @@ There are three types of models that can be simulated using synSym: transient im
 
 `leave_prob`: `null`, but if model `cb` is specified, specifies the probability of particle being able to escape from the synapse (0, no escape; 1, free escape)
 
-`pON
+`pON`:  `null`, but if model `icbs` is specified, specifies the probability of a particle immobilizing within the synapse region.
+
+`pOFF`: `null`, but if model `icbs` is specified, specifies the probability of a particle becoming un-immobilized within the synapse region.
+
+`seed`: seed for reproducability
+
+`savefile`: file path to output the saved file to
 
 ## Outputs
+
+The output is a .JSON file, containing trajectories of each particle simulated.
+
+
 
