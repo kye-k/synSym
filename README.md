@@ -57,7 +57,7 @@ There are three types of models that can be simulated using synSym: transient im
 
 `pOFF`: `null`, but if model `icbs` is specified, specifies the probability of a particle becoming un-immobilized within the synapse region.
 
-`seed`: seed for reproducability
+`seed`: seed; only use if one trajectory is simulated
 
 `savefile`: file path to output the saved file to
 
