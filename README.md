@@ -29,7 +29,7 @@ Particles are initialized within the geometries, and diffusion is simulated by i
 
 There are three types of models that can be simulated using synSym: transient immobilizations (`icbs`), slowed diffusion (`mc`) and confining boundary (`cb`).
 
-`simulation_type`: specifies the model
+`simulation_type`: specifies the model (either `"icbs"`, `"mc"` or `"cb"`
 
 `trimesh_axon`: path to .STL file (the larger geometry; units in $\mu m$)
 
