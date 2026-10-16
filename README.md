@@ -1,4 +1,4 @@
-## Synaptic Diffusion Simulation
+## Monte Carlo Synaptic Diffusion Simulation
 
 ## Overview
 synSym is a tool used to simulate diffusion within a system defined by two three-dimensional geometry (.STL) files. We originally created this tool to simulate diffusion within a axonal geometry containing a smaller synaptic geometry (generated from ssTEM images, or CLSM images).
