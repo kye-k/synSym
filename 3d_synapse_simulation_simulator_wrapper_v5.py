@@ -15,8 +15,8 @@ def main():
     # input_dir = input('input directory of where .jsons are located: ')
     # max_workers = int(input('number of processors to use: '))
 
-    input_dir = 'simulation_ca1_cb_p_alter'
-    max_workers = 32
+    input_dir = 'example_simulation'
+    max_workers = 1 # for multithreading use
     
     concatenate_csv = True # True if outputing single .csv file per simulation (and deleting individual csv)
 
