@@ -19,7 +19,7 @@ from scipy import stats
 from plotly.subplots import make_subplots
 import json
 from io import StringIO
-from synapse_simulation_runner.synapse_simulation_runner_v1 import simulation_parameters
+from synapse_simulation_runner.synapse_simulation_runner_v2 import simulation_parameters
 import seaborn as sns
 
 os.chdir(os.path.dirname(__file__))
@@ -245,7 +245,7 @@ def main():
 
         # user inputs
         # path = input('please input directory containing *sp.jsons to visualize: ')
-        path = 'simulation_ca1_cb_p_alter'
+        path = 'example_simulation'
         # ex_traj_number = int(input('please input number of example trajectories you want to generate: '))
         ex_traj_number = 5
         # avg_time_window = int(input('please input the avg_time_window for enrichment calculation: '))
