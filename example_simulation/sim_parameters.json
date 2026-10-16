@@ -1,0 +1,17 @@
+{
+"simulation_type": "cb",
+"trimesh_axon": "trimesh_axon_repaired.stl",
+"trimesh_synapse": "trimesh_synapse_repaired.stl",
+"num_p_total": 100,
+"num_p_synapse": null,
+"num_p_axon": null,
+"D_synapse": 0.31,
+"D_axon": 0.41,
+"tau_sim": 0.0005,
+"steps": 100,
+"leave_prob": 0.4,
+"pON": null,
+"pOFF": null,
+"seed": null,
+"savefile": "example_simulation"
+}
