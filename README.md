@@ -70,6 +70,6 @@ The output is a .JSON file, containing trajectories of each particle simulated.
 ## Acknowledgements
 
 Axon and synapse geometries were created from ssTEM (3.8 nm × 3.8 nm × 50 nm resolution) acquisitions of the hippocampal area CA1 available through the Open NeuroData Registry (https://registry.opendata.aws/open-neurodata).
-Bloss, E.B., Cembrowski, M.S., Karsh, B. et al. Single excitatory axons form clustered synapses onto CA1 pyramidal cell dendrites. Nat Neurosci 21, 353–363 (2018). https://doi.org/10.1038/s41593-018-0084-6
+> Bloss, E.B., Cembrowski, M.S., Karsh, B. et al. Single excitatory axons form clustered synapses onto CA1 pyramidal cell dendrites. Nat Neurosci 21, 353–363 (2018). https://doi.org/10.1038/s41593-018-0084-6
 
 
