@@ -185,7 +185,7 @@ def plot_enrichment(sp, sp_inputdir, data, output_dir, avg_time_window):
     eqSynapse = df_in_synapse[-avg_time_window:].in_synapse.mean()
     eqAxon = len(data.tr.unique()) - eqSynapse
     eqSynapse_density = eqSynapse / sp.trimesh_synapse.volume
-    eqAxon_density = eqAxon / sp.trimesh_axon.volume
+    eqAxon_density = eqAxon / (sp.trimesh_axon.volume - sp.trimesh_synapse.volume)
     eqSynapse_enrichment = eqSynapse_density / eqAxon_density
 
     data['diff_in_synapse'] = data.in_synapse.diff()
